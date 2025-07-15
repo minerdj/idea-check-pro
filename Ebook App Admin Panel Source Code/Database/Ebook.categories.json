@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "66336fcd64f5c4672eb8e3e1"
+  },
+  "name": "Computer",
+  "image": "1714646989842-Computer.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T10:49:49.875Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T10:49:49.875Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66336fd564f5c4672eb8e3e4"
+  },
+  "name": "Thriller",
+  "image": "1714646997505-Thriller.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T10:49:57.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T10:49:57.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a96b64f5c4672eb8e410"
+  },
+  "name": "Fantasy",
+  "image": "1714661739802-Fantasy.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:55:39.809Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:55:39.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66336fdd64f5c4672eb8e3e7"
+  },
+  "name": "Adventure",
+  "image": "1714647005340-Adventure.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T10:50:05.347Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T10:50:05.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a98164f5c4672eb8e416"
+  },
+  "name": "Horror",
+  "image": "1714661761694-Horror.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:56:01.696Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:56:01.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a98b64f5c4672eb8e419"
+  },
+  "name": "Geography",
+  "image": "1714661771311-Geography.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:56:11.355Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:56:11.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a99b64f5c4672eb8e41c"
+  },
+  "name": "Sports",
+  "image": "1714661787514-Sports.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:56:27.518Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:56:27.518Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a9aa64f5c4672eb8e41f"
+  },
+  "name": "Travel",
+  "image": "1714661802565-Travel.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:56:42.572Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:56:42.572Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a9ba64f5c4672eb8e422"
+  },
+  "name": "Mythology",
+  "image": "1714661818260-Mythology.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:56:58.263Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-26T06:14:35.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66336fc364f5c4672eb8e3de"
+  },
+  "name": "Biographies",
+  "image": "1714646979263-biographies.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T10:49:39.472Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T10:49:39.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "name": "History",
+  "image": "1714661750957-History.jpg",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T14:55:50.971Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:55:50.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66794dc4fc1c8c51216e692b"
+  },
+  "name": " Business & Finance",
+  "image": "1719225796699-Screenshot_6.png",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-06-24T10:43:16.727Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-24T10:43:26.849Z"
+  },
+  "__v": 0
+}]

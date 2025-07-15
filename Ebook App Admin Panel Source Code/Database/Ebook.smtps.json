@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "671b4afeab357d247842d4d7"
+  },
+  "host": "mail.clientdemoweb.com",
+  "port": "587",
+  "email": "dev@clientdemoweb.com",
+  "password": "34q-SK](pL5mdj.-,I",
+  "encryption": "TLS",
+  "createdAt": {
+    "$date": "2024-10-25T07:38:38.371Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T05:52:42.711Z"
+  },
+  "__v": 0
+}]

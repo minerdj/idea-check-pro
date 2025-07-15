@@ -1,0 +1,4 @@
+[0621/085703.353:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0621/093334.844:INFO:CONSOLE(1)] "Hiding message due to error: Cannot read property 'completedTriggerName' of null", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-butler/build/spaces.js (1)
+[0220/171521.064:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0220/172831.887:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost

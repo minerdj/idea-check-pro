@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "6633addc64f5c4672eb8e440"
+  },
+  "name": "Hidden truth",
+  "image": "1714662876443-Hidden truth.jpg",
+  "categoryId": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:14:36.454Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:14:36.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633af7464f5c4672eb8e45f"
+  },
+  "name": "Techno Thriller",
+  "image": "1714663284920-Techno-Thriller.jpg",
+  "categoryId": {
+    "$oid": "66336fd564f5c4672eb8e3e4"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:21:24.929Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:21:24.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633adbf64f5c4672eb8e434"
+  },
+  "name": "Greek myth",
+  "image": "1714662847197-Greek myth.jpg",
+  "categoryId": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:14:07.238Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:14:07.238Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633add364f5c4672eb8e43c"
+  },
+  "name": "India literacy",
+  "image": "1714662867791-india literacy.jpg",
+  "categoryId": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:14:27.827Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:14:27.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633ade564f5c4672eb8e444"
+  },
+  "name": "History",
+  "image": "1714662885504-History_.jpg",
+  "categoryId": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:14:45.533Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:14:45.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633af6964f5c4672eb8e45b"
+  },
+  "name": "Psychological Thriller",
+  "image": "1714663273144-Psychological Thriller.jpg",
+  "categoryId": {
+    "$oid": "66336fd564f5c4672eb8e3e4"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:21:13.150Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:21:13.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633adc864f5c4672eb8e438"
+  },
+  "name": "Ancient ",
+  "image": "1714662856927-Ancient.jpg",
+  "categoryId": {
+    "$oid": "6633a97664f5c4672eb8e413"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T15:14:16.944Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T15:14:16.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66794f8cfc1c8c51216e6992"
+  },
+  "name": "Accounting",
+  "image": "1719226252668-Screenshot_8.png",
+  "categoryId": {
+    "$oid": "66794dc4fc1c8c51216e692b"
+  },
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-06-24T10:50:52.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-24T10:50:52.699Z"
+  },
+  "__v": 0
+}]

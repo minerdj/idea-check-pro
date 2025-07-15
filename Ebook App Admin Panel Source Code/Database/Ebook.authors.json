@@ -1,0 +1,123 @@
+[{
+  "_id": {
+    "$oid": "6633711b64f5c4672eb8e3f7"
+  },
+  "name": "Abdul Kalam",
+  "description": "<p><strong>Avul Pakir Jainulabdeen Abdul Kalam</strong>&nbsp;BR&nbsp;(/ˈɑːbdəl&nbsp;kəˈlɑːm/&nbsp;ⓘ; 15 October 1931&nbsp;– 27 July 2015) was an Indian&nbsp;aerospace&nbsp;scientist and statesman who served as the 11th&nbsp;president of India&nbsp;from 2002 to 2007. Born and raised in a Muslim family in&nbsp;Rameswaram,&nbsp;Tamil Nadu, he studied&nbsp;physics&nbsp;and&nbsp;aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the&nbsp;Defence Research and Development Organisation&nbsp;(DRDO) and&nbsp;Indian Space Research Organisation&nbsp;(ISRO) and was intimately involved in India's civilian space programme and military&nbsp;missile development efforts.[1]&nbsp;He thus came to be known as the&nbsp;<em>Missile Man of India</em>&nbsp;for his work on the development of&nbsp;ballistic missile&nbsp;and&nbsp;launch vehicle&nbsp;technology.[2][3][4]&nbsp;He also played a pivotal organisational, technical, and political role in India's&nbsp;<em>Pokhran-II</em>&nbsp;nuclear tests in 1998, the first since the&nbsp;original nuclear test by India&nbsp;in 1974.[5]</p>",
+  "image": "1714647323474-Abdul Kalam.jpg",
+  "facebook_url": "https://www.facebook.com/",
+  "instagram_url": "https://www.instagram.com/",
+  "youtube_url": "https://www.youtube.com/",
+  "website_url": "#",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T10:55:23.485Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:53:13.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "663376b464f5c4672eb8e404"
+  },
+  "name": "Amish Tripathi",
+  "description": "<p>Amish Tripathi&nbsp;(born 18 October 1974) is an author, former diplomat and broadcaster from India. He is among the fastest-selling authors in Indian publishing history, known best for&nbsp;The Shiva Trilogy&nbsp;and&nbsp;Ram Chandra Series.His books have sold 7 million copies and been translated into 20 Indian and international languages since 2010.[2][3][4]&nbsp;He served as Minister (Culture &amp; Education)[5]&nbsp;at the High Commission of India in the UK and Director of the Nehru Centre, London from 2019 to 2023.[6][7]&nbsp;In addition, he is a host for TV documentaries, most recently for Discovery TV, in&nbsp;Legends of the Ramayana,[8][9]&nbsp;The Journey of India&nbsp;with co-host&nbsp;Amitabh Bachchan,[10][11]&nbsp;and&nbsp;Ram Janmabhoomi: Return of a splendid sun.</p>",
+  "image": "1714648756046-amish tripathi.jpg",
+  "facebook_url": "https://www.facebook.com/",
+  "instagram_url": "https://www.instagram.com/",
+  "youtube_url": "https://www.youtube.com/",
+  "website_url": "#",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T11:19:16.050Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:53:15.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6633772864f5c4672eb8e407"
+  },
+  "name": "John Creasey",
+  "description": "<p>John Creasey&nbsp;<a href=\"https://en.wikipedia.org/wiki/Order_of_the_British_Empire\" rel=\"noopener noreferrer\" target=\"_blank\">MBE&nbsp;</a>(17 September 1908 – 9 June 1973)[1]&nbsp;was an English author known mostly for detective and crime novels but who also wrote science fiction, romance and westerns. He wrote more than six hundred novels using twenty-eight different pseudonyms.He created several ongoing characters, such as&nbsp;The Toff&nbsp;(The Honourable Richard Rollison), Commander George&nbsp;Gideon of Scotland Yard, Inspector Roger West, The Baron (John Mannering), Doctor Emmanuel Cellini and Doctor Stanislaus Alexander Palfrey. Gideon of Scotland Yard was the basis for the television series&nbsp;Gideon's Way&nbsp;and for the&nbsp;John Ford&nbsp;movie&nbsp;Gideon's Day&nbsp;(1958). The Baron character was made into a 1960s TV series starring&nbsp;Steve Forrest&nbsp;as&nbsp;The Baron.[2]</p>",
+  "image": "1714648872346-John Creasey.jpg",
+  "facebook_url": "https://www.facebook.com/",
+  "instagram_url": "https://www.instagram.com/",
+  "youtube_url": "https://www.youtube.com/",
+  "website_url": "#",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-02T11:21:12.349Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:53:11.001Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6644984d7eab0f76af680f83"
+  },
+  "name": "George Orwell",
+  "since_year": 1943,
+  "description": "<p><strong>Eric Arthur Blair</strong>&nbsp;(25 June 1903 – 21 January 1950) was an English novelist, poet, essayist, journalist, and critic who wrote under the&nbsp;pen name&nbsp;of&nbsp;<strong>George Orwell</strong>.[2]&nbsp;His work is characterised by lucid prose,&nbsp;social criticism, opposition to&nbsp;totalitarianism, and support of&nbsp;democratic socialism.[3]</p><p>Orwell produced&nbsp;literary criticism, poetry, fiction, and&nbsp;polemical&nbsp;journalism. He is known for the&nbsp;allegorical&nbsp;novella&nbsp;<em>Animal Farm</em>&nbsp;(1945) and the&nbsp;dystopian&nbsp;novel&nbsp;<em>Nineteen Eighty-Four</em>&nbsp;(1949). His non-fiction works, including&nbsp;<em>The Road to Wigan Pier</em>&nbsp;(1937), documenting his experience of working-class life in the industrial north of England, and&nbsp;<em>Homage to Catalonia</em>&nbsp;(1938), an account of his experiences soldiering for the&nbsp;Republican faction&nbsp;of the&nbsp;Spanish Civil War&nbsp;(1936–1939), are as critically respected as his&nbsp;essays&nbsp;on politics, literature,&nbsp;language&nbsp;and culture.</p><p>Born in India, Blair was raised and educated in England from the age of one. After school he became an Imperial policeman in&nbsp;Burma, before returning to Suffolk, England, where he began his writing career as George Orwell—a name inspired by a favourite location, the&nbsp;River Orwell. He made a living from occasional pieces of journalism, and also worked as a teacher or bookseller while living in London. From the late 1920s to the early 1930s, his success as a writer grew and his first books were published. He was wounded fighting in the Spanish Civil War, leading to his first period of ill health on return to England. During the&nbsp;Second World War&nbsp;he served as a&nbsp;sergeant&nbsp;in the&nbsp;Greenwich Home Guard&nbsp;(1940–41), worked as a journalist and, between 1941 and 1943, worked for the&nbsp;BBC. The 1945 publication of&nbsp;<em>Animal Farm</em>&nbsp;led to fame during his lifetime. During his final years, he worked on&nbsp;<em>Nineteen Eighty-Four</em>&nbsp;and moved between London and the Scottish island of&nbsp;Jura.&nbsp;<em>Nineteen Eighty-Four</em>&nbsp;was published in June 1949, less than a year before his death.</p><p><br></p>",
+  "image": "1715771469721-George Orwell.jpg",
+  "facebook_url": "#",
+  "instagram_url": "#",
+  "youtube_url": "#",
+  "website_url": "#",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-15T11:11:09.738Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-15T11:11:09.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66449bfc608dbcbf904dad74"
+  },
+  "name": "Van Orman",
+  "since_year": 2004,
+  "description": "<p>Finding a book to read can be hard work. I can never find anything I want to read, so I decided that if the book I wanted hadn't been written yet, then I had to write it myself. I started writing novels at age thirteen and wrote no fewer than eleven novels before I finally wrote one that was worth reading. When you pick up a novel written by me, you aren't picking up a debut novel or a first crack at writing. You are reading something that has been years in the making. In 2020, I celebrate 25th years of writing novels. I write romance novels with a twist of fantasy, suspense, magic and wonder, but always with that hook of chasing someone somewhere where you definitely shouldn't go.</p>",
+  "image": "1715772412713-Van Orman.jpg",
+  "facebook_url": "#",
+  "instagram_url": "#",
+  "youtube_url": "#",
+  "website_url": "#",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-05-15T11:26:52.740Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-15T11:26:52.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66795512fc1c8c51216e69e8"
+  },
+  "name": "Alexander Haislip",
+  "since_year": 1995,
+  "description": "<p>The first comprehensive guide for mastering venture capital</p>",
+  "image": "1719227666850-01 (42).jpg",
+  "facebook_url": "",
+  "instagram_url": "",
+  "youtube_url": "",
+  "website_url": "",
+  "is_active": 1,
+  "createdAt": {
+    "$date": "2024-06-24T11:14:26.869Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-26T05:47:52.033Z"
+  },
+  "__v": 0
+}]

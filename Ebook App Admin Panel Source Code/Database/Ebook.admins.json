@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "651be1fcf6e89dffc4d4839b"
+  },
+  "email": "admin@gmail.com",
+  "password": "5a77d1e9612d350b3734f6282259b7ff0a3f87d62cfef5f35e91a5604c0490a3",
+  "is_admin": 1,
+  "createdAt": {
+    "$date": "2023-10-03T09:42:20.572Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-10T05:49:51.990Z"
+  },
+  "__v": 0,
+  "active": true,
+  "username": "Admin",
+  "image": "1719586278219-01 (42).jpg",
+  "phone": "1234567890"
+},
+{
+  "_id": {
+    "$oid": "65af5dd11e12f0a3091c0898"
+  },
+  "email": "demo@gmail.com",
+  "password": "778cd1ef949ae90bddcffbb0143f043a086641c8d768a83ff0881d7fcdbfab3c",
+  "is_admin": 0,
+  "createdAt": {
+    "$date": "2023-10-03T09:42:20.572Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-14T08:34:41.022Z"
+  },
+  "__v": 0,
+  "active": true,
+  "username": "demo",
+  "image": "1708515398604-pexels-spencer-selover-775358.jpg",
+  "phone": "1234567890"
+}]
