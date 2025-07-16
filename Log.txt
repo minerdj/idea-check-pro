@@ -1,651 +1,1117 @@
-Windows PowerShell
-(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-Попробуйте новую кроссплатформенную оболочку PowerShell (https://aka.ms/pscore6)
-PS D:\Idea Check Pro\Flutter Ebook App\AiEbook App> flutter clean
-Deleting build...                                                    3ms
-Deleting .dart_tool...                                               1ms
-Deleting ephemeral...                                                0ms
-Deleting Generated.xcconfig...                                       0ms
-Deleting flutter_export_environment.sh...                            1ms
-Deleting .flutter-plugins-dependencies...                            0ms
-PS D:\Idea Check Pro\Flutter Ebook App\AiEbook App> flutter pub get
-Resolving dependencies... (1.1s)
-Downloading packages...
-  _flutterfire_internals 1.3.55 (1.3.58 available)
-  audio_session 0.1.25 (0.2.2 available)
-  characters 1.4.0 (1.4.1 available)
-  checked_yaml 2.0.3 (2.0.4 available)
-  chewie 1.11.3 (1.12.1 available)
-  cloud_firestore 5.6.8 (5.6.11 available)
-  cloud_firestore_platform_interface 6.6.8 (6.6.11 available)
-  cloud_firestore_web 4.4.8 (4.4.11 available)
-! device_info_plus 11.4.0 (overridden) (11.5.0 available)
-! device_info_plus_platform_interface 7.0.2 (overridden) (7.0.3 available)
-  file_picker 10.1.9 (10.2.0 available)
-  firebase_core 3.13.1 (3.15.1 available)
-  firebase_core_platform_interface 5.4.0 (6.0.0 available)
-  firebase_core_web 2.23.0 (2.24.1 available)
-  firebase_messaging 15.2.6 (15.2.9 available)
-  firebase_messaging_platform_interface 4.6.6 (4.6.9 available)
-  firebase_messaging_web 3.10.6 (3.10.9 available)
-  firebase_performance 0.10.1+6 (0.10.1+9 available)
-  firebase_performance_platform_interface 0.1.5+6 (0.1.5+9 available)
-  firebase_performance_web 0.1.7+12 (0.1.7+15 available)
-  flutter_launcher_icons 0.14.3 (0.14.4 available)
-  flutter_lints 5.0.0 (6.0.0 available)
-  flutter_local_notifications 19.2.1 (19.3.0 available)
-  flutter_local_notifications_platform_interface 9.0.0 (9.1.0 available)
-  flutter_local_notifications_windows 1.0.0 (1.0.1 available)
-  flutter_svg 2.1.0 (2.2.0 available)
-  flutter_widget_from_html 0.16.0 (0.17.0 available)
-  flutter_widget_from_html_core 0.16.0 (0.17.0 available)
-  freezed_annotation 2.4.4 (3.1.0 available)
-  fwfh_cached_network_image 0.16.0 (0.16.1 available)
-  fwfh_chewie 0.16.0 (0.16.1 available)
-  fwfh_just_audio 0.16.0 (0.17.0 available)
-  fwfh_svg 0.16.0 (0.16.1 available)
-  fwfh_url_launcher 0.16.0 (0.16.1 available)
-  fwfh_webview 0.15.4 (0.15.5 available)
-  go_router 15.1.2 (16.0.0 available)
-! http 1.4.0 (overridden)
-! intl 0.20.2 (overridden)
-  iregexp 0.1.2 (0.2.0 available)
-  json_path 0.7.6 (0.8.0 available)
-  just_audio 0.9.46 (0.10.4 available)
-  leak_tracker 10.0.9 (11.0.1 available)
-  leak_tracker_flutter_testing 3.0.9 (3.0.10 available)
-  leak_tracker_testing 3.0.1 (3.0.2 available)
-  lints 5.1.1 (6.0.0 available)
-  material_color_utilities 0.11.1 (0.13.0 available)
-  meta 1.16.0 (1.17.0 available)
-  pdfx 2.9.1 (2.9.2 available)
-  permission_handler 12.0.0+1 (12.0.1 available)
-  petitparser 6.1.0 (7.0.0 available)
-! photo_view 0.15.0 (overridden)
-  posix 6.0.2 (6.0.3 available)
-  syncfusion_flutter_core 29.2.8 (30.1.40 available)
-  syncfusion_flutter_pdf 29.2.8 (30.1.40 available)
-  syncfusion_flutter_pdfviewer 29.2.8 (30.1.40 available)
-  syncfusion_flutter_signaturepad 29.2.8 (30.1.40 available)
-  syncfusion_pdfviewer_macos 29.2.8 (30.1.40 available)
-  syncfusion_pdfviewer_platform_interface 29.2.8 (30.1.40 available)
-  syncfusion_pdfviewer_web 29.2.8 (30.1.40 available)
-  syncfusion_pdfviewer_windows 29.2.8 (30.1.40 available)
-  synchronized 3.3.1 (3.4.0 available)
-  test_api 0.7.4 (0.7.6 available)
-  url_launcher 6.3.1 (6.3.2 available)
-! uuid 4.5.1 (overridden)
-  vector_graphics 1.1.18 (1.1.19 available)
-  vector_math 2.1.4 (2.2.0 available)
-  video_player_avfoundation 2.7.1 (2.8.0 available)
-  video_player_platform_interface 6.3.0 (6.4.0 available)
-  video_player_web 2.3.5 (2.4.0 available)
-  vm_service 15.0.0 (15.0.2 available)
-  webview_flutter_android 3.16.9 (4.7.0 available)
-  webview_flutter_platform_interface 2.13.0 (2.13.1 available)
-  win32 5.13.0 (5.14.0 available)
-  xml 6.5.0 (6.6.0 available)
-Got dependencies!
-71 packages have newer versions incompatible with dependency constraints.
-Try `flutter pub outdated` for more information.
-PS D:\Idea Check Pro\Flutter Ebook App\AiEbook App> flutter build apk
-Checking the license for package Android SDK Build-Tools 35 in D:\android-studio-biblioteka\licenses
-License for package Android SDK Build-Tools 35 accepted.
-Preparing "Install Android SDK Build-Tools 35 v.35.0.0".
-"Install Android SDK Build-Tools 35 v.35.0.0" ready.
-Installing Android SDK Build-Tools 35 in D:\android-studio-biblioteka\build-tools\35.0.0
-"Install Android SDK Build-Tools 35 v.35.0.0" complete.
-"Install Android SDK Build-Tools 35 v.35.0.0" finished.
-[=========                              ] 25%                                   
-[=========                              ] 25% Fetch remote repository...
-[=======================================] 100% Fetch remote repository...
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 6428 bytes (99.6% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
-Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 1832 bytes (99.3% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
-Checking the license for package CMake 3.22.1 in D:\android-studio-biblioteka\licenses
-License for package CMake 3.22.1 accepted.
-Preparing "Install CMake 3.22.1 v.3.22.1".
-"Install CMake 3.22.1 v.3.22.1" ready.
-Installing CMake 3.22.1 in D:\android-studio-biblioteka\cmake\3.22.1
-"Install CMake 3.22.1 v.3.22.1" complete.
-"Install CMake 3.22.1 v.3.22.1" finished.
-warning: [options] source value 8 is obsolete and will be removed in a future release
-warning: [options] target value 8 is obsolete and will be removed in a future release
-warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-3 warnings
-warning: [options] source value 8 is obsolete and will be removed in a future release
-warning: [options] target value 8 is obsolete and will be removed in a future release
-warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-3 warnings
-warning: [options] source value 8 is obsolete and will be removed in a future release
-warning: [options] target value 8 is obsolete and will be removed in a future release
-warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
-3 warnings
-e: Daemon compilation failed: null
-java.lang.Exception
-        at org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Error.get(CompileService.kt:69)
-        at org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Error.get(CompileService.kt:65)
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemon(GradleKotlinCompilerWork.kt:240)
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemonOrFallbackImpl(GradleKotlinCompilerWork.kt:159)       
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:111)
-        at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:76)
-        at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
-        at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
-        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
-        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
-        at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
-        at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
-        at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)   
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)     
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
-        at org.gradle.internal.Factories$1.create(Factories.java:31)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)       
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
-        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-        at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-        at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-        at java.base/java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.AssertionError: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App
-\build\device_info_plus\kotlin\compileReleaseKotlin\cacheable\caches-jvm\jvm\kotlin: class-fq-name-to-source.tab, source-to-classes.tab, internal-name-to-source.tab
-        at org.jetbrains.kotlin.com.google.common.io.Closer.close(Closer.java:236)
-        at org.jetbrains.kotlin.incremental.IncrementalCachesManager.close(IncrementalCachesManager.kt:55)
-        at kotlin.io.CloseableKt.closeFinally(Closeable.kt:56)
-        at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:293)
-        at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:129)
-        at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:674)
-        at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:91)
-        at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1659)
-        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
-        at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-        at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
-        at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport.serviceCall(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
-        at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
-        ... 3 more
-Caused by: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\device_info_plus\kotlin\compileReleaseKotlin\cacheable\caches-jvm\jvm\kotlin: class-fq-name-to-source.tab, source-to-classes.tab, internal-name-to-source.tab     
-        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:95)
-        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.close(BasicMapsOwner.kt:53)
-        at org.jetbrains.kotlin.com.google.common.io.Closer.close(Closer.java:223)
-        ... 22 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:33)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.AppendableSetBasicMap.close(BasicMap.kt:157)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:33)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.incremental.storage.AppendableCollectionExternalizer.save(LazyStorage.kt:151)
-                at org.jetbrains.kotlin.incremental.storage.AppendableCollectionExternalizer.save(LazyStorage.kt:142)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\device_info_plus\kotlin\compileReleaseKotlin\cacheable\caches-jvm\lookups: id-to-file.tab, file-to-id.tab
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:95)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.close(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.LookupStorage.close(LookupStorage.kt:155)
-                ... 23 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.LegacyFileExternalizer.save(IdToFileMap.kt:51)
-                        at org.jetbrains.kotlin.incremental.storage.LegacyFileExternalizer.save(IdToFileMap.kt:48)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 25 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 25 more
-        Suppressed: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\device_info_plus\kotlin\compileReleaseKotlin\cacheable\caches-jvm\inputs: source-to-output.tab
-                ... 25 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.AppendableSetBasicMap.close(BasicMap.kt:157)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 24 more
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-e: Daemon compilation failed: null
-java.lang.Exception
-        at org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Error.get(CompileService.kt:69)
-        at org.jetbrains.kotlin.daemon.common.CompileService$CallResult$Error.get(CompileService.kt:65)
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemon(GradleKotlinCompilerWork.kt:240)
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemonOrFallbackImpl(GradleKotlinCompilerWork.kt:159)       
-        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.run(GradleKotlinCompilerWork.kt:111)
-        at org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction.execute(GradleCompilerRunnerWithWorkers.kt:76)
-        at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
-        at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
-        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
-        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
-        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
-        at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
-        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
-        at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
-        at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)   
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)     
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
-        at org.gradle.internal.Factories$1.create(Factories.java:31)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
-        at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)       
-        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
-        at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-        at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-        at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-        at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-        at java.base/java.lang.Thread.run(Unknown Source)
-Caused by: java.lang.AssertionError: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App
-\build\file_picker\kotlin\compileReleaseKotlin\cacheable\caches-jvm\jvm\kotlin: class-fq-name-to-source.tab, source-to-classes.tab, internal-name-to-source.tab
-        at org.jetbrains.kotlin.com.google.common.io.Closer.close(Closer.java:236)
-        at org.jetbrains.kotlin.incremental.IncrementalCachesManager.close(IncrementalCachesManager.kt:55)
-        at kotlin.io.CloseableKt.closeFinally(Closeable.kt:56)
-        at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compileNonIncrementally(IncrementalCompilerRunner.kt:293)
-        at org.jetbrains.kotlin.incremental.IncrementalCompilerRunner.compile(IncrementalCompilerRunner.kt:129)
-        at org.jetbrains.kotlin.daemon.CompileServiceImplBase.execIncrementalCompiler(CompileServiceImpl.kt:674)
-        at org.jetbrains.kotlin.daemon.CompileServiceImplBase.access$execIncrementalCompiler(CompileServiceImpl.kt:91)
-        at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1659)
-        at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
-        at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-        at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport$1.run(Unknown Source)
-        at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-        at java.rmi/sun.rmi.transport.Transport.serviceCall(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(Unknown Source)
-        at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-        at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
-        ... 3 more
-Caused by: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\file_picker\kotlin\compileReleaseKotlin\cacheable\caches-jvm\jvm\kotlin: class-fq-name-to-source.tab, source-to-classes.tab, internal-name-to-source.tab
-        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:95)
-        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.close(BasicMapsOwner.kt:53)
-        at org.jetbrains.kotlin.com.google.common.io.Closer.close(Closer.java:223)
-        ... 22 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:33)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.AppendableSetBasicMap.close(BasicMap.kt:157)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\Pub\Cache
-\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)        
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:33)
-                at org.jetbrains.kotlin.incremental.storage.FileDescriptor.save(FileToPathConverter.kt:30)
-                at org.jetbrains.kotlin.incremental.storage.AppendableCollectionExternalizer.save(LazyStorage.kt:151)
-                at org.jetbrains.kotlin.incremental.storage.AppendableCollectionExternalizer.save(LazyStorage.kt:142)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                ... 24 more
-        Suppressed: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\file_picker\kotlin\compileReleaseKotlin\cacheable\caches-jvm\lookups: id-to-file.tab, file-to-id.tab
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:95)
-                at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.close(BasicMapsOwner.kt:53)
-                at org.jetbrains.kotlin.incremental.LookupStorage.close(LookupStorage.kt:155)
-                ... 23 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.LegacyFileExternalizer.save(IdToFileMap.kt:51)
-                        at org.jetbrains.kotlin.incremental.storage.LegacyFileExternalizer.save(IdToFileMap.kt:48)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:443)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 25 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.close(PersistentStorage.kt:124)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 25 more
-        Suppressed: java.lang.Exception: Could not close incremental caches in D:\Idea Check Pro\Flutter Ebook App\AiEbook App\build\file_picker\kotlin\compileReleaseKotlin\cacheable\caches-jvm\inputs: source-to-output.tab
-                ... 25 more
-                Suppressed: java.lang.IllegalArgumentException: this and base files have different roots: C:\Users\Пользователь\AppData\Local\P
-ub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt and D:\Idea Check Pro\Flutter Ebook App\AiEbook App\android.
-                        at kotlin.io.FilesKt__UtilsKt.toRelativeString(Utils.kt:117)
-                        at kotlin.io.FilesKt__UtilsKt.relativeTo(Utils.kt:128)
-                        at org.jetbrains.kotlin.incremental.storage.RelocatableFileToPathConverter.toPath(RelocatableFileToPathConverter.kt:24)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:50)
-                        at org.jetbrains.kotlin.incremental.storage.FileDescriptor.getHashCode(FileToPathConverter.kt:30)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.hashKey(LinkedCustomHashMap.java:109)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.LinkedCustomHashMap.remove(LinkedCustomHashMap.java:153)
-                        at org.jetbrains.kotlin.com.intellij.util.containers.SLRUMap.remove(SLRUMap.java:89)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.flushAppendCache(PersistentMapImpl.java:999)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.doPut(PersistentMapImpl.java:451)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.put(PersistentMapImpl.java:422)
-                        at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.put(PersistentHashMap.java:105)
-                        at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.applyChanges(InMemoryStorage.kt:108)
-                        at org.jetbrains.kotlin.incremental.storage.AppendableInMemoryStorage.applyChanges(InMemoryStorage.kt:179)
-                        at org.jetbrains.kotlin.incremental.storage.InMemoryStorage.close(InMemoryStorage.kt:136)
-                        at org.jetbrains.kotlin.incremental.storage.AppendableSetBasicMap.close(BasicMap.kt:157)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner$close$1.invoke(BasicMapsOwner.kt:53)
-                        at org.jetbrains.kotlin.incremental.storage.BasicMapsOwner.forEachMapSafe(BasicMapsOwner.kt:87)
-                        ... 24 more
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.g
-radle\caches\8.11.1\transforms\73777ef555c253baaebe2374dfb1f444\transformed\jetified-flutter_embedding_release-1.0.0-72f2b18bb094f92f62a3113a8075240ebb59affa.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\63155da7b197ad6fbaa32df64480b6d2\transformed\fragment-1.7.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\cb632517cd3ac0218c8bf13112762a93\transformed\jetified-activity-1.8.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\59827d44ed219384c72c64095775365f\transformed\loader-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\753130416d9ed63f29eeaacb78e3115d\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\296b03f0c642bb844dfcf34d432a672e\transformed\lifecycle-livedata-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\a5f501adf4f5e56bde2e007691d09010\transformed\lifecycle-viewmodel-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\9ed0fb4d7fb0b707ba056e539a0e5c06\transformed\lifecycle-livedata-core-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\8159ff346a9c0d65148335e1d257e1ee\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b2eb0a6324b1150bdda6b40586e2b26f\transformed\jetified-core-ktx-1.13.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\9a34781a2dfd9b28621c1833b2fcb77d\transformed\viewpager-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\67132b769db5e1069e547b42b590b65e\transformed\customview-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\47032a176642af3baa78d0d68883c5c7\transformed\core-1.13.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\c984c7330abd80bd95fffec50eb59ec1\transformed\lifecycle-runtime-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\1d84fb0328b7822ff4baa4d02229b90d\transformed\jetified-lifecycle-process-2.7.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.g
-radle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.7.0\2ad14aed781c4a73ed4dbb421966d408a0a06686\lifecycle-common-java8-2.7.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.7.0\85334205d65cca70ed0109c3acbd29e22a2d9cb1\lifecycle-common-2.7.0.jar 
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\733ce98fd13e9dce9bf46a7a8232b86c\transformed\jetified-window-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\8b670af55601aad69ce698f5360f4988\transformed\jetified-window-java-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\0198bb20a1986154ec5c52e5b5443aae\transformed\jetified-annotation-experimental-1.4.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\6b5f8940584de5f18360427116e02d6d\transformed\jetified-savedstate-1.2.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\5dd050178f403e814f6f86814dd06c18\transformed\core-runtime-2.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\24b0a81c414c3929a8f047401872870c\transformed\versionedparcelable-1.1.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\45d3fada32c53fe0ab349181d87f4d23\transformed\jetified-annotation-jvm-1.8.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\37f6a1df664618ca19b7c3a4ef5b6eb1\transformed\jetified-kotlinx-coroutines-core-jvm-1.7.1.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\d19df5bb2504e0e1033de1e3d0f7e42e\transformed\jetified-kotlinx-coroutines-android-1.7.1.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\a2a4d02c202521eccad08fd493591c41\transformed\jetified-kotlin-stdlib-jdk8-1.8.20.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\6fa706211babfdcea94b6adaeb9e8cdf\transformed\jetified-kotlin-stdlib-jdk7-1.8.20.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\c528144003df67cfc515e6ef424fa1cc\transformed\jetified-kotlin-stdlib-1.8.22.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b3f37471052b1d9928000cfed0ba3f13\transformed\jetified-kotlin-stdlib-common-1.8.22.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\1da0b5746bdf0843e0401644b9e10eb3\transformed\jetified-annotations-23.0.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\3a2ec7889f6d886c96a5e5079201088e\transformed\jetified-startup-runtime-1.1.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b87e2f7c943786c426f4213a19e9ab22\transformed\jetified-tracing-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\8bc58cedfc9f44ab65da5c0fa7f14465\transformed\jetified-relinker-1.4.5-api.jar
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\DeviceInfoPlusPlugin.kt
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\device_info_plus-11.4.0\android\src\main\kotlin\dev\fluttercommunity\plus\device_info\MethodCallHandlerImpl.kt
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.g
-radle\caches\8.11.1\transforms\73777ef555c253baaebe2374dfb1f444\transformed\jetified-flutter_embedding_release-1.0.0-72f2b18bb094f92f62a3113a8075240ebb59affa.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\63155da7b197ad6fbaa32df64480b6d2\transformed\fragment-1.7.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\cb632517cd3ac0218c8bf13112762a93\transformed\jetified-activity-1.8.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\59827d44ed219384c72c64095775365f\transformed\loader-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\4edd6b71a51544c21ea972df23368dba\transformed\jetified-lifecycle-livedata-core-ktx-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\513c45c9ca4e47146f9d5b3548647254\transformed\lifecycle-livedata-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\a964889211a09574f8318806078f9564\transformed\lifecycle-viewmodel-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\edcdbb6108d0432862290e74f055537c\transformed\jetified-lifecycle-viewmodel-release-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\2de6e333a7cf45582f8e685862a00dfc\transformed\lifecycle-livedata-core-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\ce116b0279f14d143f096b9a8b929abc\transformed\jetified-lifecycle-common-jvm-2.8.7.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.g
-radle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-java8\2.8.7\2ad14aed781c4a73ed4dbb421966d408a0a06686\lifecycle-common-java8-2.8.7.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\155bd58284ad19364eb73de711a2f640\transformed\jetified-lifecycle-runtime-release-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b4002df9b148ff74833920f80ecd6517\transformed\jetified-lifecycle-process-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\ac3426060c7a3615fcc0be746fbabaee\transformed\jetified-lifecycle-viewmodel-savedstate-2.8.7-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b183bff91af655d19ba8a8acdc9da8f7\transformed\jetified-core-ktx-1.15.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\9a34781a2dfd9b28621c1833b2fcb77d\transformed\viewpager-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\67132b769db5e1069e547b42b590b65e\transformed\customview-1.0.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\d088f337f2f3d95f5fe1b6f2f56e60ce\transformed\core-1.15.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\e63f3ab40edf815df1eacc9327bea706\transformed\jetified-annotation-experimental-1.4.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\24b0a81c414c3929a8f047401872870c\transformed\versionedparcelable-1.1.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\5dd050178f403e814f6f86814dd06c18\transformed\core-runtime-2.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\6b5f8940584de5f18360427116e02d6d\transformed\jetified-savedstate-1.2.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\e9bb5370d0dafc282ed1ab4a0ac10c01\transformed\jetified-collection-jvm-1.4.2.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\f478c901681795ef98cda40e96191e59\transformed\jetified-annotation-jvm-1.9.1.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\733ce98fd13e9dce9bf46a7a8232b86c\transformed\jetified-window-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\8b670af55601aad69ce698f5360f4988\transformed\jetified-window-java-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\081753ffac67d77f2bec0df9f765acd1\transformed\jetified-kotlinx-coroutines-core-jvm-1.7.3.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\316a2ecd15739155bf409eb34dc8c13f\transformed\jetified-kotlinx-coroutines-android-1.7.3.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\a2a4d02c202521eccad08fd493591c41\transformed\jetified-kotlin-stdlib-jdk8-1.8.20.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\6fa706211babfdcea94b6adaeb9e8cdf\transformed\jetified-kotlin-stdlib-jdk7-1.8.20.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\f4dd1c43dcd07f1a38fc77a4eb050207\transformed\jetified-kotlin-stdlib-2.1.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\cb58f098c9dc785365ba4e715c55239d\transformed\jetified-tika-core-3.1.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\1da0b5746bdf0843e0401644b9e10eb3\transformed\jetified-annotations-23.0.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\3a2ec7889f6d886c96a5e5079201088e\transformed\jetified-startup-runtime-1.1.1-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\b87e2f7c943786c426f4213a19e9ab22\transformed\jetified-tracing-1.2.0-api.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\451a3ef16a0d41684ff6d50f23e7dc01\transformed\jetified-slf4j-api-2.0.16.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\f7499d882ce8aba45450cdc30f8f2c37\transformed\jetified-commons-io-2.18.0.jar
-exception: warning: classpath entry points to a non-existent location: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\.gradle\caches\8.11.1\transforms\8bc58cedfc9f44ab65da5c0fa7f14465\transformed\jetified-relinker-1.4.5-api.jar
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileInfo.kt
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FilePickerDelegate.kt
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FilePickerPlugin.kt
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\FileUtils.kt
-exception: error: source file or directory not found: C:\Users\u041Fu043Eu043Bu044Cu0437u043Eu0432u0430u0442u0435u043Bu044C\AppData\Local\Pub\Cache\hosted\pub.dev\file_picker-10.1.9\android\src\main\kotlin\com\mr\flutter\plugin\filepicker\MethodResultWrapper.kt
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-FAILURE: Build completed with 2 failures.
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-1: Task failed with an exception.
------------
-* What went wrong:
-Execution failed for task ':device_info_plus:compileReleaseKotlin'.
-> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction        
-   > Compilation error. See log for more details
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-> Get more help at https://help.gradle.org.
-==============================================================================
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-2: Task failed with an exception.
------------
-* What went wrong:
-Execution failed for task ':file_picker:compileReleaseKotlin'.
-> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction        
-   > Compilation error. See log for more details
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-> Get more help at https://help.gradle.org.
-==============================================================================
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
 
-BUILD FAILED in 20m 52s
-Running Gradle task 'assembleRelease'...                         1253,1s
-Gradle task assembleRelease failed with exit code 1
-PS D:\Idea Check Pro\Flutter Ebook App\AiEbook App> 
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+"Install Android Emulator v.35.6.11" failed.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" failed.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" failed.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+"Install Sources for Android 36 (revision 1)" failed.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+"Install Android SDK Platform 36 (revision 2)" failed.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+"Install Android SDK Build-Tools 36 v.36.0.0" failed.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+"Install Android SDK Platform-Tools v.36.0.0" failed.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Google Play Intel x86_64 Atom System Image: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android Emulator hypervisor driver (installer): dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Sources for Android 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Build-Tools 36: dl.google.com.
+java.net.UnknownHostException: dl.google.com
+Warning: An error occurred while preparing SDK package Android SDK Platform-Tools: dl.google.com.
+
+Preparing "Install Android Emulator v.35.6.11".
+Downloading https://dl.google.com/android/repository/emulator-windows_x64-13610412.zip
+"Install Android Emulator v.35.6.11" ready.
+Installing Android Emulator in C:\Users\user\AppData\Local\Android\Sdk\emulator
+"Install Android Emulator v.35.6.11" complete.
+"Install Android Emulator v.35.6.11" finished.
+Preparing "Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-36_r06.zip
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" ready.
+Installing Google Play Intel x86_64 Atom System Image in C:\Users\user\AppData\Local\Android\Sdk\system-images\android-36\google_apis_playstore\x86_64
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" complete.
+"Install Google Play Intel x86_64 Atom System Image API 36.0 (revision 6)" finished.
+Preparing "Install Android Emulator hypervisor driver (installer) v.2.2.0".
+Downloading https://dl.google.com/android/repository/aehd-windows_v2.2.zip
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" ready.
+Installing Android Emulator hypervisor driver (installer) in C:\Users\user\AppData\Local\Android\Sdk\extras\google\Android_Emulator_Hypervisor_Driver
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" complete.
+"Install Android Emulator hypervisor driver (installer) v.2.2.0" finished.
+Preparing "Install Sources for Android 36 (revision 1)".
+Downloading https://dl.google.com/android/repository/source-36_r01.zip
+"Install Sources for Android 36 (revision 1)" ready.
+Installing Sources for Android 36 in C:\Users\user\AppData\Local\Android\Sdk\sources\android-36
+"Install Sources for Android 36 (revision 1)" complete.
+"Install Sources for Android 36 (revision 1)" finished.
+Preparing "Install Android SDK Platform 36 (revision 2)".
+Downloading https://dl.google.com/android/repository/platform-36_r02.zip
+"Install Android SDK Platform 36 (revision 2)" ready.
+Installing Android SDK Platform 36 in C:\Users\user\AppData\Local\Android\Sdk\platforms\android-36
+"Install Android SDK Platform 36 (revision 2)" complete.
+"Install Android SDK Platform 36 (revision 2)" finished.
+Preparing "Install Android SDK Build-Tools 36 v.36.0.0".
+Downloading https://dl.google.com/android/repository/build-tools_r36_windows.zip
+"Install Android SDK Build-Tools 36 v.36.0.0" ready.
+Installing Android SDK Build-Tools 36 in C:\Users\user\AppData\Local\Android\Sdk\build-tools\36.0.0
+"Install Android SDK Build-Tools 36 v.36.0.0" complete.
+"Install Android SDK Build-Tools 36 v.36.0.0" finished.
+Preparing "Install Android SDK Platform-Tools v.36.0.0".
+Downloading https://dl.google.com/android/repository/platform-tools_r36.0.0-win.zip
+"Install Android SDK Platform-Tools v.36.0.0" ready.
+Installing Android SDK Platform-Tools in C:\Users\user\AppData\Local\Android\Sdk\platform-tools
+"Install Android SDK Platform-Tools v.36.0.0" complete.
+"Install Android SDK Platform-Tools v.36.0.0" finished.
+SDK Manager found the following installed packages: build-tools;36.0.0 emulator extras;google;Android_Emulator_Hypervisor_Driver platform-tools platforms;android-36 sources;android-36 system-images;android-36;google_apis_playstore;x86_64
+Android SDK is up to date.
+Running Android Emulator hypervisor driver installer
+
+SERVICE_NAME: aehd 
+        TYPE               : 1  KERNEL_DRIVER  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+[SC] DeleteService: �ᯥ�
+
+���_�㦡�: aehd 
+        ���                : 1  KERNEL_DRIVER  
+        ����ﭨ�          : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        ���_��室�_Win32   : 0  (0x0)
+        ���_��室�_�㦡�  : 0  (0x0)
+        ����஫쭠�_�窠  : 0x0
+        ��������           : 0x0
+        ID_�����        : 0
+        �����              : 
+Creating Android virtual device
+Android virtual device Medium_Phone_API_36.0 was successfully created
